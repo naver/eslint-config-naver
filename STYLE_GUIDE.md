@@ -1832,9 +1832,6 @@
     ```javascript
     // good
     /**
-     * parseInt was the reason my code was slow.
-     * Bitshifting the String to coerce it to a
-     * Number made it a lot faster.
      * parseInt 가 원인으로 느렸음.
      * Bitshift를 통한 수치로의 문자열 강제 형변환으로
      * 성능을 개선시킴.
@@ -2081,26 +2078,26 @@
   - [22.12](#naming-no-special) 특수 문자 사용 금지
    클래스, 메소드 등의 이름에는 특수 문자를 사용하지 않는다. jQuery변수의 경우 $을 사용하는 것은 예외사항으로 한다.
 
-   ```js
+    ```js
     // bad
     funtion $some() {
 
     }
-   ```
+    ```
  
   - [22.13](#naming-class-name) 클래스명과 변수명은 명사 사용을 준수한다.
   - [22.14](#naming-method-name) 메소드명은 동사 사용을 준수한다.
   - [22.15](#naming-const-name) 상수명은 대문자를 사용하고, 단어와 단어사이는 _로 연결한다.
 
-  ```js
-  // bad
-  const firefox = 1;
-  const is_left = true;
+    ```js
+    // bad
+    const firefox = 1;
+    const is_left = true;
 
-  // good
-  const FIREFOX = 1;
-  const IS_LEFT = true;
-  ```
+    // good
+    const FIREFOX = 1;
+    const IS_LEFT = true;
+    ```
   
 
 **[⬆ back to top](#table-of-contents)**
