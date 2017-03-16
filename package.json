@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-naver",
+  "version": "1.0.0",
+  "description": "Naver JavaScript Coding Conventions rules for eslint",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naver/eslint-config-naver.git"
+  },
+  "author": "NAVER Corp",
+  "license": "MIT"
+}
