@@ -586,7 +586,7 @@
 ## Arrow Functions
 > `8.2`, `8.4` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrow-functions)와 동일합니다.
 
-  - [8.1](#8.1) <a name='8.1'></a> (무명함수를 전달하는 듯한)함수식을 이용하는 경우 arrow function 표기를 이용해 주십시오.
+  - [8.1](#8.1) <a name='8.1'></a> (익명함수를 전달하는 듯한)함수식을 이용하는 경우 arrow function 표기를 이용해 주십시오.
 
     ```javascript
     // bad
@@ -1086,7 +1086,7 @@
     }
     ```
 
-  - [14.2](#14.2) <a name='14.2'></a> 무명함수의 경우 함수가 할당되기 전의 변수가 hoist 됩니다.
+  - [14.2](#14.2) <a name='14.2'></a> 익명함수의 경우 함수가 할당되기 전의 변수가 hoist 됩니다.
 
     ```javascript
     function example() {
