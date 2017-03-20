@@ -2356,11 +2356,9 @@
     ];
     ```
 
-  - [22.10](#naming-eng) 영문 사용
-    소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않는다.
+  - [22.10](#naming-eng) 소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않는다.
 
-  - [22.11](#naming-no-korea) 한글 발음 사용 금지
-    한글 발음을 그대로 사용하지 않는다.
+  - [22.11](#naming-no-korea) 한글 발음을 그대로 사용하지 않는다.
 
     ```javascript
     // ''무형자산''이라는 의미의 변수를 선언한 예.
@@ -2380,8 +2378,8 @@
     }
     ```
  
-  - [22.13](#naming-class-name) 클래스명과 변수명은 명사 사용을 준수한다.
-  - [22.14](#naming-method-name) 메서드명은 동사 사용을 준수한다.
+  - [22.13](#naming-class-name) 클래스명과 변수명은 `명사 사용`을 준수한다.
+  - [22.14](#naming-method-name) 메서드명은 `동사 사용`을 준수한다.
   - [22.15](#naming-const-name) 상수명은 대문자를 사용하고, 단어와 단어사이는 _로 연결한다.
 
     ```js
@@ -2504,7 +2502,6 @@
   - [25.3](#25.3) <a name='25.3'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--queries)와 다르게 DOM 검색에 대해서는 별도로 가이드 하지 않는다.
 
   - [25.4](#25.4) <a name='25.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--find)와 다르게 DOM 검색에 대해서는 별도로 가이드 하지 않는다.
-    ```
 
 **[⬆ back to top](#table-of-contents)**
 
