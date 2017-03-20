@@ -273,7 +273,7 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## Arrays
-> `4.5` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#array)와 동일합니다.
+> `4.4 ~ 5` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#array)와 동일합니다.
 
   - [4.1](#4.1) <a name='4.1'></a> 배열을 작성 할 때는 리터럴 구문을 사용한다. eslint: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html)
 
@@ -312,11 +312,11 @@
     const itemsCopy = [...items];
     ```
 
-  - [4.4](#4.4) <a name='4.4'></a> array-like 오브젝트를 배열로 변환하는 경우에는 [Array#from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from)을 이용한다.
+  - [4.4](#4.4) <a name='4.4'></a> array-like 오브젝트를 배열로 변환하는 경우에는 spread 연산자 (`...`)를 사용한다.
 
     ```javascript
     const foo = document.querySelectorAll(".foo");
-    const nodes = Array.from(foo);
+    const nodes = [...foo];
     ```
 
   - [4.5](#4.5) [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return)와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
