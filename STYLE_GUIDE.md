@@ -312,12 +312,7 @@
     const itemsCopy = [...items];
     ```
 
-  - [4.4](#4.4) <a name='4.4'></a> array-like 오브젝트를 배열로 변환하는 경우에는 spread 연산자 (`...`)를 사용한다.
-
-    ```javascript
-    const foo = document.querySelectorAll(".foo");
-    const nodes = [...foo];
-    ```
+  - [4.4](#4.4) <a name='4.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--from)와 다르게 `array-like 오브젝트를 배열로 변환하는 경우`에 대해서는 별도로 가이드 하지 않는다.
 
   - [4.5](#4.5) [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return)와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
 
