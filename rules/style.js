@@ -106,7 +106,7 @@ module.exports = {
 	// enforces new line after each method call in the chain to make it
 	// more readable and easy to maintain
 	// http://eslint.org/docs/rules/newline-per-chained-call
-	// [NAVER] 1.1 메소드 체인
+	// [NAVER] 1.1 메서드 체인
 	"newline-per-chained-call": ["error", {
 		"ignoreChainWithDepth": 2
 	}],

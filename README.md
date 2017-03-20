@@ -2,9 +2,9 @@
 - eslint-config-naver는 네이버 자바스크립트 코딩컨벤션을 지원하는 [eslint](http://eslint.org/) 룰 셋입니다.
 - eslint-config-naver는 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) 룰셋 기준으로 작성되었습니다.
 
-> ### eslint-config-naver는 2개의 룰셋을 제공합니다.
-> - ES5 룰 셋 : `eslint-config-naver`
-> - ES6+ 룰 셋 : `eslint-config-naver/es5`
+> ### eslint-config-naver는 2개의 룰 셋을 제공합니다.
+> - ES6+ 룰 셋 : `eslint-config-naver`
+> - ES5 룰 셋 : `eslint-config-naver/es5`
 
 ## Install
 ```
@@ -12,7 +12,7 @@
 ```
 
 ## Usage
-### ES6+ 룰셋을 사용하는 경우
+### ES6+ 룰 셋을 사용하는 경우
 #### .eslintrc
 ```
 {
@@ -23,7 +23,7 @@
 }
 ```
 
-### ES5 룰셋을 사용하는 경우
+### ES5 룰 셋을 사용하는 경우
 ```
 {
   "extends": "eslint-config-naver/es5",
