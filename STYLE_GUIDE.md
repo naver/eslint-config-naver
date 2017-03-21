@@ -588,7 +588,7 @@
     ```
 
   - [7.11](#functions--signature-spacing) 익명함수는 function과 괄호 사이에 공백이 없다. 
-   명명 함수(named function)는 함수 이름과 괄호 사이에 공백이 없다.  
+   기명 함수(named function)는 함수 이름과 괄호 사이에 공백이 없다.  
    async arrow function인 경우 async와 arrow function 사이에 공백이 있다.  
    eslint: [`space-before-function-paren`](http://eslint.org/docs/rules/space-before-function-paren) [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks)
 
@@ -1305,7 +1305,7 @@
     }
     ```
 
-  - [14.2](#14.2) <a name='14.2'></a> 익명함수의 경우 함수가 할당되기 전의 변수가 hoist 된다.
+  - [14.2](#14.2) <a name='14.2'></a> 익명 함수의 경우 함수가 할당되기 전의 변수가 hoist 된다.
 
     ```javascript
     function example() {
@@ -1319,7 +1319,7 @@
     }
     ```
 
-  - [14.3](#14.3) <a name='14.3'></a> 명명함수(named function)의 경우도 똑같이 변수가 hoist 된다. 함수명이나 함수본체는 hoist 되지 않는다.
+  - [14.3](#14.3) <a name='14.3'></a> 기명 함수(named function)의 경우도 똑같이 변수가 hoist 된다. 함수명이나 함수본체는 hoist 되지 않는다.
 
     ```javascript
     function example() {
