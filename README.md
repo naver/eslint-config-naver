@@ -13,8 +13,8 @@
 
 ## Usage
 ### ES6+ 룰 셋을 사용하는 경우
-#### .eslintrc
 ```
+// .eslintrc 파일
 {
   "extends": "eslint-config-naver",
   "rules": {
@@ -25,6 +25,7 @@
 
 ### ES5 룰 셋을 사용하는 경우
 ```
+// .eslintrc 파일
 {
   "extends": "eslint-config-naver/es5",
   "rules": {
