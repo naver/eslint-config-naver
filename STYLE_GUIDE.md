@@ -29,7 +29,7 @@
   1. [Accessors](#accessors)
   1. [Events](#events)
   1. [jQuery](#jquery)
-  1. [Resources](#resource)
+  1. [Resources](#resources)
 
 ## Types
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#types)와 동일합니다.
