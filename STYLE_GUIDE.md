@@ -1187,7 +1187,7 @@
     let length;
     ```
 
-  - [13.4](#variables--define-where-used) `var`로 변수를 선언 하는 경우에는 상단에 변수를 선언한다. `let`과 `const`을 사용할 때는 블럭 스코프 이기 때문에, 변수가 사용될 적당한 위치에 변수를 선언한다.
+  - [13.4](#variables--define-where-used) `let`과 `const`을 사용할 때는 블럭 스코프 이기 때문에, 변수가 사용될 적당한 위치에 변수를 선언한다. 단, `let`과 `const`를 사용할 수 없다면, `var`로 상단에 변수를 선언한다. 
 
     ```javascript
     // bad
@@ -1240,7 +1240,7 @@
     }
     ```
 
-  - [13.5](#variables--no-chain-assignment) 여러개의 변수를 한 줄에 동일한 값으로 설정하지 않는다. eslint [`no-multi-assign`](http://eslint.org/docs/rules/no-multi-assign)
+  - [13.5](#variables--no-chain-assignment) 여러 개의 변수를 한 줄에 동일한 값으로 설정하지 않는다. eslint [`no-multi-assign`](http://eslint.org/docs/rules/no-multi-assign)
 
     ```javascript
     // bad
