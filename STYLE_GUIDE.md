@@ -2499,9 +2499,9 @@
     }
     ```
 
-  - [25.3](#25.3) <a name='25.3'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--queries)와 다르게 DOM 검색에 대해서는 별도로 가이드 하지 않는다.
+  - [25.3](#25.3) <a name='25.3'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--queries)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
 
-  - [25.4](#25.4) <a name='25.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--find)와 다르게 DOM 검색에 대해서는 별도로 가이드 하지 않는다.
+  - [25.4](#25.4) <a name='25.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--find)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
 
 **[⬆ back to top](#table-of-contents)**
 
