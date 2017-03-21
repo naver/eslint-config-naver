@@ -2288,7 +2288,7 @@
     }
     ```
 
-  - [22.6](#22.6) <a name='22.6'></a> 파일을 1개의 클래스로 export 하는 경우, 파일명은 클래스명과 완전히 일치시키지 않으면 안된다.
+  - [22.6](#22.6) <a name='22.6'></a> 파일을 1개의 `클래스`로 export 하는 경우, 파일명은 클래스명과 완전히 일치시킨다.
 
     ```javascript
     // file contents
@@ -2308,7 +2308,7 @@
     import CheckBox from "./CheckBox";
     ```
 
-  - [22.7](#22.7) <a name='22.7'></a> Default export가 함수일 경우, camelCase를 이용한다. 파일명은 함수명과 동일해야 한다.
+  - [22.7](#22.7) <a name='22.7'></a> Default export가 `함수`일 경우, camelCase를 이용한다. 파일명은 함수명과 동일해야 한다.
 
     ```javascript
     function makeStyleGuide() {
@@ -2317,7 +2317,7 @@
     export default makeStyleGuide;
     ```
 
-  - [22.8](#22.8) <a name='22.8'></a> singleton / function library / 빈 오브젝트를 export 하는 경우에는 PascalCase를 사용한다.
+  - [22.8](#22.8) <a name='22.8'></a> `Singleton / function library / 빈 오브젝트`를 export 하는 경우에는 PascalCase를 사용한다.
 
     ```javascript
     const AirbnbStyleGuide = {
