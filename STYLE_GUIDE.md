@@ -250,7 +250,7 @@
     console.log(has.call(object, key));
     ```
 
-  - [3.8](#3.8) [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)은 오브젝트를 얕은 복사(shallow-copy) 하기 때문에, 가급적이면 spread 연산자(...)나 rest 파라미터(...)를 사용한다.
+  - [3.8](#3.8) 얕은 복사(shallow-copy)를 하기 위해서 [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) 보다는 spread를 선호한다. 오브젝트에서 몇몇 속성을 제거한 새로운 오브젝트를 얻고자 할때는 rest 오퍼레이터를 사용한다.
 
     ```javascript
     // very bad
