@@ -1,4 +1,4 @@
-# Naver Javascript Coding Convention
+# Naver Javascript Coding Conventions
 - eslint-config-naver는 네이버 자바스크립트 코딩컨벤션을 지원하는 [eslint](http://eslint.org/) 룰 셋입니다.
 - eslint-config-naver는 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) 룰셋 기준으로 작성되었습니다.
 
@@ -16,7 +16,7 @@
 ```
 // .eslintrc 파일
 {
-  "extends": "eslint-config-naver",
+  "extends": "naver",
   "rules": {
     // 프로젝트별 적용할 Rules
   }
@@ -27,7 +27,7 @@
 ```
 // .eslintrc 파일
 {
-  "extends": "eslint-config-naver/es5",
+  "extends": "naver/es5",
   "rules": {
     // 프로젝트별 적용할 Rules
   }
