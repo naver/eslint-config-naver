@@ -3,8 +3,8 @@
 - eslint-config-naver는 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) 룰셋 기준으로 작성되었습니다.
 
 > ### eslint-config-naver는 2개의 룰 셋을 제공합니다.
-> - ES6+ 룰 셋 : `eslint-config-naver`
-> - ES5 룰 셋 : `eslint-config-naver/es5`
+> - ES6+ 룰 셋 : `naver`
+> - ES5 룰 셋 : `naver/es5`
 
 ## Install
 ```
