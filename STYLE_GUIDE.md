@@ -2260,7 +2260,7 @@
     })();
     ```
 
-  - [22.5](#naming--self-this) 가능한 this를 캐싱하지 않는다. arrow functions 또는 [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)를 사용한다. jQuery를 사용하는 경우라면, $.proxy(http://api.jquery.com/jQuery.proxy)를 사용한다.
+  - [22.5](#naming--self-this) 가능한 this를 캐싱하지 않는다. arrow functions 또는 [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)를 사용한다. jQuery를 사용하는 경우라면, [$.proxy](http://api.jquery.com/jQuery.proxy)를 사용한다.
   만약, this의 참조를 저장하는 경우라면 self 를 사용한다.
 
     ```javascript
