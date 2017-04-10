@@ -168,7 +168,7 @@
     };
     ```
 
-  - [3.4](#3.4) 속성의 단축구문을 이용한다. eslint: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html) 
+  - [3.4](#3.4) <a name='3.4'></a>속성의 단축구문을 이용한다. eslint: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html) 
 
     ```javascript
     const lukeSkywalker = "Luke Skywalker";
@@ -214,7 +214,7 @@
     ```
 
 
-  - [3.6](#objects--quoted-props) 속성명이 키워드(default, if, ...)일 경우에는 꼭 따옴표를 붙인다. 또한, `-`문자와 같이 속성명으로 지정할수 없는 경우에는 꼭 따옴표를 붙인다. eslint: [`quote-props`](http://eslint.org/docs/rules/quote-props.html)
+  - [3.6](#3.6) <a name='3.6'></a>속성명이 키워드(default, if, ...)일 경우에는 꼭 따옴표를 붙인다. 또한, `-`문자와 같이 속성명으로 지정할수 없는 경우에는 꼭 따옴표를 붙인다. eslint: [`quote-props`](http://eslint.org/docs/rules/quote-props.html)
 
     ```js
     // bad
@@ -233,7 +233,7 @@
     };
     ```
 
-  - [3.7](#3.7) `hasOwnProperty`, `propertyIsEnumerable`, `isPrototypeOf` 와 같은 `Object.prototype` 메서드를 직접적으로 사용하지 않는다. eslint: [`no-prototype-builtins`](http://eslint.org/docs/rules/no-prototype-builtins.html)
+  - [3.7](#3.7) <a name='3.7'></a>`hasOwnProperty`, `propertyIsEnumerable`, `isPrototypeOf` 와 같은 `Object.prototype` 메서드를 직접적으로 사용하지 않는다. eslint: [`no-prototype-builtins`](http://eslint.org/docs/rules/no-prototype-builtins.html)
  
     ```javascript
     // bad
@@ -250,7 +250,7 @@
     console.log(has.call(object, key));
     ```
 
-  - [3.8](#3.8) 얕은 복사(shallow-copy)를 하기 위해서 [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) 보다는 spread 연산자(...)를 선호한다. 오브젝트에서 몇몇 속성을 제거한 새로운 오브젝트를 얻고자 할때는 rest 파라미터(...)를 사용한다.
+  - [3.8](#3.8) <a name='3.8'></a>얕은 복사(shallow-copy)를 하기 위해서 [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) 보다는 spread 연산자(...)를 선호한다. 오브젝트에서 몇몇 속성을 제거한 새로운 오브젝트를 얻고자 할때는 rest 파라미터(...)를 사용한다.
 
     ```javascript
     // very bad
@@ -360,7 +360,7 @@
 ## Strings
 > `6.1`,`6.2` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#strings)와 동일합니다.
 
-  - [6.1](#strings--quotes) 따옴표는 쌍따옴표를 사용한다. 이스케이프한 경우는 예외로 홑따옴표를 사용할 수 있다. eslint: [`quotes`](http://eslint.org/docs/rules/quotes.html)
+  - [6.1](#6.1) <a name='6.1'></a>따옴표는 쌍따옴표를 사용한다. 이스케이프한 경우는 예외로 홑따옴표를 사용할 수 있다. eslint: [`quotes`](http://eslint.org/docs/rules/quotes.html)
 
     ```javascript
     // bad
@@ -376,7 +376,7 @@
     }
     ```
 
-  - [6.2](#strings--line-length) 문자열은 `100`자를 넘지 않는다. `100`자가 넘는 긴 문자열인 경우 줄바꿈시 escape 문자(\)를 사용하지 않는다. escape문자 대신 `+` 연산자를 사용한다.  ES6의 template strings가 사용 가능한 환경에서는 [6.3](#6.3) 룰을 적용한다.
+  - [6.2](#6.2) <a name='6.2'></a>문자열은 `100`자를 넘지 않는다. `100`자가 넘는 긴 문자열인 경우 줄바꿈시 escape 문자(\)를 사용하지 않는다. escape문자 대신 `+` 연산자를 사용한다.  ES6의 template strings가 사용 가능한 환경에서는 [6.3](#6.3) 룰을 적용한다.
 
     ```javascript
     // bad
@@ -430,7 +430,7 @@
 ## Functions
 > `7.1 ~ 2`, `7.11 ~ 14` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions)와 동일합니다.
 
-  - [7.1](#functions--declarations) 함수 스타일에 대해서는 별도의 스타일 가이드를 제공하지 않는다. eslint: [`func-style`](http://eslint.org/docs/rules/func-style) 
+  - [7.1](#7.1) <a name='7.1'></a>함수 스타일에 대해서는 별도의 스타일 가이드를 제공하지 않는다. eslint: [`func-style`](http://eslint.org/docs/rules/func-style) 
 
     ```javascript
     // type 1
@@ -449,7 +449,7 @@
     };
     ```
     
-  - [7.2](#functions--iife) 즉시 실행함수는 함수를 괄호로 감싼다. eslint: [`wrap-iife`](http://eslint.org/docs/rules/wrap-iife.html)
+  - [7.2](#7.2) <a name='7.2'></a>즉시 실행함수는 함수를 괄호로 감싼다. eslint: [`wrap-iife`](http://eslint.org/docs/rules/wrap-iife.html)
 
     ```javascript
     // bad
@@ -587,7 +587,7 @@
     var subtract = Function("a", "b", "return a - b");
     ```
 
-  - [7.11](#functions--signature-spacing) 익명함수는 function과 괄호 사이에 공백이 없다. 
+  - [7.11](#7.11) <a name='7.11'></a>익명함수는 function과 괄호 사이에 공백이 없다. 
    기명 함수(named function)는 함수 이름과 괄호 사이에 공백이 없다.  
    async arrow function인 경우 async와 arrow function 사이에 공백이 있다.  
    eslint: [`space-before-function-paren`](http://eslint.org/docs/rules/space-before-function-paren) [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks)
@@ -604,7 +604,7 @@
     const z = async (v,i) => {};
     ```
 
-  - [7.12](#functions--mutate-params) 가급적 mutate parameter는 사용하지 않는다. 하지만, 필요에 의해서는 주의하여 사용한다. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
+  - [7.12](#7.12) <a name='7.12'></a>가급적 mutate parameter는 사용하지 않는다. 하지만, 필요에 의해서는 주의하여 사용한다. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
 
     ```javascript
     // 권장하지 않음.
@@ -613,7 +613,7 @@
     }
     ```
 
-  - [7.13](#functions--reassign-params) 파라미터를 재할당하지 않는다. 단, 파라미터의 속성에 대해서는 재할당이 가능하다. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
+  - [7.13](#7.13) <a name='7.13'></a>파라미터를 재할당하지 않는다. 단, 파라미터의 속성에 대해서는 재할당이 가능하다. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
 
     ```javascript
     // bad
@@ -642,7 +642,7 @@
     }    
     ```
 
-  - [7.14](#functions--spread-vs-apply) 가변함수를 호출할 때는 spread 연산자 (`...`)를 사용한다. eslint: [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread)
+  - [7.14](#7.14) <a name='7.14'></a>가변함수를 호출할 때는 spread 연산자 (`...`)를 사용한다. eslint: [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread)
 
     ```javascript
     // bad
@@ -660,7 +660,7 @@
     new Date(...[2016, 8, 5]);
     ```
 
-  - [7.15](#functions--signature-invocation-indentation) 함수의 정의가 멀티라인 인 경우, 오브젝트와 같은 스타일 가이드를 따른다. [19.1](#19.1)을 참조한다.
+  - [7.15](#7.15) <a name='7.15'></a>함수의 정의가 멀티라인 인 경우, 오브젝트와 같은 스타일 가이드를 따른다. [19.1](#19.1)을 참조한다.
 
     ```javascript
     // bad
@@ -697,7 +697,7 @@
 ## Arrow Functions
 > `8.2`, `8.4` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrow-functions)와 동일합니다.
 
-  - [8.1](#8.1) <a name='8.1'></a> 익명함수를 전달하는 경우, arrow function 표기를 이용한다. eslint: [`prefer-arrow-callback`](http://eslint.org/docs/rules/prefer-arrow-callback.html), [`arrow-spacing`](http://eslint.org/docs/rules/arrow-spacing.html)
+  - [8.1](#8.1) <a name='8.1'></a>익명함수를 전달하는 경우, arrow function 표기를 이용한다. eslint: [`prefer-arrow-callback`](http://eslint.org/docs/rules/prefer-arrow-callback.html), [`arrow-spacing`](http://eslint.org/docs/rules/arrow-spacing.html)
 
     ```javascript
     // bad
@@ -713,7 +713,7 @@
     });
     ```
 
-  - [8.2](#arrows--implicit-return) 함수의 몸체(body)가 단일 표현식이라면 중괄호(`{}`)를 생략하고, 묵시적으로 그 값은 반환값이 된다.  그렇지 않으면, 중괄호(`{}`)는 생략할 수 없고, 반환값이 필요한 경우는 return 을 명시한다. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html)
+  - [8.2](#8.2) <a name='8.2'></a>함수의 몸체(body)가 단일 표현식이라면 중괄호(`{}`)를 생략하고, 묵시적으로 그 값은 반환값이 된다.  그렇지 않으면, 중괄호(`{}`)는 생략할 수 없고, 반환값이 필요한 경우는 return 을 명시한다. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html)
 
     ```javascript
     // bad
@@ -758,7 +758,7 @@
     ));
     ```
 
-  - [8.4](#arrows--one-arg-parens) 함수가 단일 파라미터인 경우, 소괄호(`()`)는 생략한다. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html)
+  - [8.4](#8.4) <a name='8.4'></a>함수가 단일 파라미터인 경우, 소괄호(`()`)는 생략한다. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html)
 
     ```javascript
     // bad
@@ -785,7 +785,7 @@
     });
     ```
 
-  - [8.5](#arrows--confusing) arrow function 문법(`=>`)과 비교 연산자 (`<=`, `>=`)를 함께 사용할 경우, 소괄호(`()`)를 이용하여 혼란스럽지 않도록 표현한다. eslint: [`no-confusing-arrow`](http://eslint.org/docs/rules/no-confusing-arrow)
+  - [8.5](#8.5) <a name='8.5'></a>arrow function 문법(`=>`)과 비교 연산자 (`<=`, `>=`)를 함께 사용할 경우, 소괄호(`()`)를 이용하여 혼란스럽지 않도록 표현한다. eslint: [`no-confusing-arrow`](http://eslint.org/docs/rules/no-confusing-arrow)
 
     ```javascript
     // bad
@@ -809,7 +809,7 @@
 ## Classes & Constructors
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#classes--constructors)와 동일합니다.
 
-  - [9.1](#9.1) <a name='9.1'></a> `prototype`을 직접 조작하는 것을 피하고 항상 `class`를 이용한다.
+  - [9.1](#9.1) <a name='9.1'></a>`prototype`을 직접 조작하는 것을 피하고 항상 `class`를 이용한다.
 
     ```javascript
     // bad
@@ -835,7 +835,7 @@
     }
     ```
 
-  - [9.2](#9.2) <a name='9.2'></a> 상속은 `extends` 를 이용한다. 
+  - [9.2](#9.2) <a name='9.2'></a>상속은 `extends` 를 이용한다. 
 
     ```javascript
     // bad
@@ -856,7 +856,7 @@
     }
     ```
 
-  - [9.3](#9.3) <a name='9.3'></a> 필요하다면, 메서드의 반환값으로 `this` 를 반환하는 것으로 메서드체이닝을 할 수 있다. 
+  - [9.3](#9.3) <a name='9.3'></a>필요하다면, 메서드의 반환값으로 `this` 를 반환하는 것으로 메서드체이닝을 할 수 있다. 
 
     ```javascript
     // bad
@@ -893,7 +893,7 @@
     ```
 
 
-  - [9.4](#9.4) <a name='9.4'></a> toString()을 작성하는 것을 허용하지만 올바르게 동작하는 지와 side effect 가 없는지를 꼭 확인한다.
+  - [9.4](#9.4) <a name='9.4'></a>toString()을 작성하는 것을 허용하지만 올바르게 동작하는 지와 side effect 가 없는지를 꼭 확인한다.
 
     ```javascript
     class Jedi {
@@ -911,7 +911,7 @@
     }
     ```
 
-  - [9.5](#constructors--no-useless) 불필요한 빈 default constructor는 사용하지 않는다. eslint: [`no-useless-constructor`](http://eslint.org/docs/rules/no-useless-constructor)
+  - [9.5](#9.5) <a name='9.5'></a>불필요한 빈 default constructor는 사용하지 않는다. eslint: [`no-useless-constructor`](http://eslint.org/docs/rules/no-useless-constructor)
 
     ```javascript
     // bad
@@ -939,7 +939,7 @@
     }
     ```    
 
-  - [9.6](#classes--no-duplicate-members) 클래스에는 동일 멤버가 있어서는 안된다. eslint: [`no-dupe-class-members`](http://eslint.org/docs/rules/no-dupe-class-members)
+  - [9.6](#9.6) <a name='9.6'></a>클래스에는 동일 멤버가 있어서는 안된다. eslint: [`no-dupe-class-members`](http://eslint.org/docs/rules/no-dupe-class-members)
 
     ```javascript
     // bad
@@ -964,7 +964,7 @@
 ## Modules
 > `10.5`, `10.9` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#modules)와 동일합니다.
 
-  - [10.1](#10.1) <a name='10.1'></a> 비표준 모듈시스템이 아닌 (`import`/`export`) 를 항상 사용한다.
+  - [10.1](#10.1) <a name='10.1'></a>비표준 모듈시스템이 아닌 (`import`/`export`) 를 항상 사용한다.
 
     ```javascript
     // bad
@@ -980,7 +980,7 @@
     export default es6;
     ```
 
-  - [10.2](#10.2) <a name='10.2'></a> wildcard import 는 이용하지 않는다.
+  - [10.2](#10.2) <a name='10.2'></a>wildcard import 는 이용하지 않는다.
 
     ```javascript
     // bad
@@ -990,7 +990,7 @@
     import AirbnbStyleGuide from "./AirbnbStyleGuide";
     ```
 
-  - [10.3](#10.3) <a name='10.3'></a> import 문으로부터 직접 export 하지 않는다.
+  - [10.3](#10.3) <a name='10.3'></a>import 문으로부터 직접 export 하지 않는다.
 
     ```javascript
     // bad
@@ -1003,7 +1003,7 @@
     export default es6;
     ```
 
-  - [10.4](#modules--no-duplicate-imports) import는 중복되지 않게 한 곳에서 import 한다.
+  - [10.4](#10.4) <a name='10.4'></a>import는 중복되지 않게 한 곳에서 import 한다.
  eslint: [`no-duplicate-imports`](http://eslint.org/docs/rules/no-duplicate-imports)
 
     ```javascript
@@ -1022,7 +1022,7 @@
     } from "foo";
     ```
 
-  - [10.5](#modules--no-mutable-exports) mutable 객체를 export 하는 것에 대해 강제하지 않는다. eslint: [`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md)
+  - [10.5](#10.5) <a name='10.5'></a>mutable 객체를 export 하는 것에 대해 강제하지 않는다. eslint: [`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md)
 
     ```javascript
     // good
@@ -1038,7 +1038,7 @@
     export {foo};
     ```
 
-  - [10.6](#modules--prefer-default-export) export가 하나일 경우, default export를 사용한다. 
+  - [10.6](#10.6) <a name='10.6'></a>export가 하나일 경우, default export를 사용한다. 
  eslint: [`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)
 
     ```javascript
@@ -1049,7 +1049,7 @@
     export default function foo() {}
     ```
 
-  - [10.7](#modules--imports-first) 모든 `import`문은 상위에 위치한다.
+  - [10.7](#10.7) <a name='10.7'></a>모든 `import`문은 상위에 위치한다.
  eslint: [`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)
 
     ```javascript
@@ -1066,7 +1066,7 @@
     foo.init();
     ```
 
-  - [10.8](#modules--multiline-imports-over-newlines) 멀티 라인 imports 문은 배열이나 오브젝트의 literal과 같이 표현한다. [19.1](#19.1)을 참조한다.
+  - [10.8](#10.8) <a name='10.8'></a>멀티 라인 imports 문은 배열이나 오브젝트의 literal과 같이 표현한다. [19.1](#19.1)을 참조한다.
 
     ```javascript
     // good
@@ -1099,7 +1099,7 @@
 ## Properties
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#properties)와 동일합니다.
 
-  - [12.1](#12.1) <a name='12.1'></a> 프로퍼티에 억세스하는 경우는 점 `.` 을 사용한다. eslint: [`dot-notation`](http://eslint.org/docs/rules/dot-notation.html)
+  - [12.1](#12.1) <a name='12.1'></a>프로퍼티에 억세스하는 경우는 점 `.` 을 사용한다. eslint: [`dot-notation`](http://eslint.org/docs/rules/dot-notation.html)
 
     ```javascript
     const luke = {
@@ -1114,7 +1114,7 @@
     const isJedi = luke.jedi;
     ```
 
-  - [12.2](#12.2) <a name='12.2'></a> 변수를 사용해 프로퍼티에 억세스하는 경우는 대괄호(`[]`)를 사용한다.
+  - [12.2](#12.2) <a name='12.2'></a>변수를 사용해 프로퍼티에 억세스하는 경우는 대괄호(`[]`)를 사용한다.
 
     ```javascript
     const luke = {
@@ -1134,7 +1134,7 @@
 ## Variables
 > `13.4`, `13.6` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#variables)와 동일합니다.
  
-  - [13.1](#13.1) <a name='13.1'></a> 변수를 선언 할 때는 가급적 `const`나 `let`을 사용한다. 그렇게 하지 않으면 글로벌 변수로 선언된다. eslint: [`no-undef`](http://eslint.org/docs/rules/no-undef) [`prefer-const`](http://eslint.org/docs/rules/prefer-const)
+  - [13.1](#13.1) <a name='13.1'></a>변수를 선언 할 때는 가급적 `const`나 `let`을 사용한다. 그렇게 하지 않으면 글로벌 변수로 선언된다. eslint: [`no-undef`](http://eslint.org/docs/rules/no-undef) [`prefer-const`](http://eslint.org/docs/rules/prefer-const)
 
     ```javascript
     // bad
@@ -1144,7 +1144,7 @@
     const superPower = new SuperPower();
     ```
 
-  - [13.2](#variables--one-const) 변수 선언은 변수당 하나씩 사용한다. eslint: [`one-var`](http://eslint.org/docs/rules/one-var.html)
+  - [13.2](#13.2) <a name='13.2'></a>변수 선언은 변수당 하나씩 사용한다. eslint: [`one-var`](http://eslint.org/docs/rules/one-var.html)
 
     ```javascript
     // bad
@@ -1187,7 +1187,7 @@
     let length;
     ```
 
-  - [13.4](#variables--define-where-used) `let`과 `const`을 사용할 때는 블럭 스코프 이기 때문에, 변수가 사용될 적당한 위치에 변수를 선언한다. 단, `let`과 `const`를 사용할 수 없다면, `var`로 상단에 변수를 선언한다. 
+  - [13.4](#13.4) <a name='13.4'></a>`let`과 `const`을 사용할 때는 블럭 스코프 이기 때문에, 변수가 사용될 적당한 위치에 변수를 선언한다. 단, `let`과 `const`를 사용할 수 없다면, `var`로 상단에 변수를 선언한다. 
 
     ```javascript
     // bad
@@ -1240,7 +1240,7 @@
     }
     ```
 
-  - [13.5](#variables--no-chain-assignment) 여러 개의 변수를 한 줄에 동일한 값으로 설정하지 않는다. eslint [`no-multi-assign`](http://eslint.org/docs/rules/no-multi-assign)
+  - [13.5](#13.5) <a name='13.5'></a>여러 개의 변수를 한 줄에 동일한 값으로 설정하지 않는다. eslint [`no-multi-assign`](http://eslint.org/docs/rules/no-multi-assign)
 
     ```javascript
     // bad
@@ -1256,7 +1256,7 @@
     }());
     ```
 
-  - [13.6](#variables--unary-increment-decrement) ++, -- 연산자 사용이 가능하다. 연산자와 피연산자 사이에 공백을 두지 않는다. eslint [`no-plusplus`](http://eslint.org/docs/rules/no-plusplus)
+  - [13.6](#13.6) <a name='13.6'></a>++, -- 연산자 사용이 가능하다. 연산자와 피연산자 사이에 공백을 두지 않는다. eslint [`no-plusplus`](http://eslint.org/docs/rules/no-plusplus)
 
     ```javascript
     // bad
@@ -1274,7 +1274,7 @@
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#hoisting)와 동일합니다.
 
 
-  - [14.1](#14.1) <a name='14.1'></a> `var` 선언은 할당 없이 스코프의 선두에 hoist 된다. `const` 와 `let` 선언은[Temporal Dead Zones (TDZ)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let) 라고 불리는 새로운 컨셉의 혜택을 받고 있다.
+  - [14.1](#14.1) <a name='14.1'></a>`var` 선언은 할당 없이 스코프의 선두에 hoist 된다. `const` 와 `let` 선언은[Temporal Dead Zones (TDZ)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let) 라고 불리는 새로운 컨셉의 혜택을 받고 있다.
     ```javascript
     // notDefined 가 글로벌변수에 존재하지 않는다고 판정한 경우, 잘 동작하지 않는다.
     function example() {
@@ -1364,9 +1364,9 @@
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#comparison-operators--equality)와 동일합니다.
 
 
-  - [15.1](#15.1) <a name='15.1'></a> `==` 이나 `!=` 보다 `===` 와 `!==` 을 사용한다.
+  - [15.1](#15.1) <a name='15.1'></a>`==` 이나 `!=` 보다 `===` 와 `!==` 을 사용한다.
 
-  - [15.2](#15.2) <a name='15.2'></a> `if` 문과 같은 조건식은 `ToBoolean` 메서드에 의한 강제형변환으로 평가되어 항상 다음과 같은 심플한 룰을 따른다.
+  - [15.2](#15.2) <a name='15.2'></a>`if` 문과 같은 조건식은 `ToBoolean` 메서드에 의한 강제형변환으로 평가되어 항상 다음과 같은 심플한 룰을 따른다.
     + **Object** 는 **true** 로 평가된다.
     + **undefined** 는 **false** 로 평가된다.
     + **null** 은 **false** 로 평가된다.
@@ -1381,7 +1381,7 @@
     }
     ```
 
-  - [15.3](#15.3) <a name='15.3'></a> Boolen에 대해서는 단축형을 사용한다.
+  - [15.3](#15.3) <a name='15.3'></a>Boolen에 대해서는 단축형을 사용한다.
 
     ```javascript
     // bad
@@ -1405,9 +1405,9 @@
     }
     ```
 
-  - [15.4](#comparison--moreinfo) 비교에 대한 자세한 정보는 [Truth Equality and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll. 을 참조한다.
+  - [15.4](#15.4) <a name='15.4'></a>비교에 대한 자세한 정보는 [Truth Equality and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll. 을 참조한다.
 
-  - [15.5](#comparison--switch-blocks) `case`, `default` 구문에서 `let`, `const`, `function`, `class`가 사용 되는 경우에는 중괄호(`{}`)를 사용한다. eslint rules: [`no-case-declarations`](http://eslint.org/docs/rules/no-case-declarations.html).
+  - [15.5](#15.5) <a name='15.5'></a>`case`, `default` 구문에서 `let`, `const`, `function`, `class`가 사용 되는 경우에는 중괄호(`{}`)를 사용한다. eslint rules: [`no-case-declarations`](http://eslint.org/docs/rules/no-case-declarations.html).
 
     ```javascript
     // bad
@@ -1452,7 +1452,7 @@
     }
     ```  
 
-  - [15.6](#comparison--nested-ternaries) 중첩 3항 연산자는 사용하지 않는다. eslint rules: [`no-nested-ternary`](http://eslint.org/docs/rules/no-nested-ternary.html).
+  - [15.6](#15.6) <a name='15.6'></a>중첩 3항 연산자는 사용하지 않는다. eslint rules: [`no-nested-ternary`](http://eslint.org/docs/rules/no-nested-ternary.html).
 
     ```javascript
     // bad
@@ -1473,7 +1473,7 @@
     const foo = maybe1 > maybe2 ? "bar" : maybeNull;
     ```    
 
-  - [15.7](#comparison--unneeded-ternary) 불필요한 3항 연산자는 사용하지 않는다. eslint rules: [`no-unneeded-ternary`](http://eslint.org/docs/rules/no-unneeded-ternary.html).
+  - [15.7](#15.7) <a name='15.7'></a>불필요한 3항 연산자는 사용하지 않는다. eslint rules: [`no-unneeded-ternary`](http://eslint.org/docs/rules/no-unneeded-ternary.html).
 
     ```javascript
     // bad
@@ -1492,7 +1492,7 @@
 ## Blocks
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#blocks)와 다른 가이드를 제공합니다.
 
-  - [16.1](#blocks--braces) 중괄호(`{}`)는 클래스, 메서드, 제어문의 블럭을 구분한다. 중괄호는 클래스 선언, 메서드 선언, 조건/반복문/제어문,줄의 마지막에서 시작한다.
+  - [16.1](#16.1) <a name='16.1'></a>중괄호(`{}`)는 클래스, 메서드, 제어문의 블럭을 구분한다. 중괄호는 클래스 선언, 메서드 선언, 조건/반복문/제어문,줄의 마지막에서 시작한다.
 
     ```javascript
     // bad
@@ -1522,7 +1522,7 @@
     }
     ```
 
-  - [16.2](#blocks--cuddled-elses) 조건/반복문/제어문에 중괄호 사용한다. 조건/반복문/제어문이 한줄로 끝이라도 중괄호를 활용한다. eslint: [`brace-style`](http://eslint.org/docs/rules/brace-style.html)
+  - [16.2](#16.2) <a name='16.2'></a>조건/반복문/제어문에 중괄호 사용한다. 조건/반복문/제어문이 한줄로 끝이라도 중괄호를 활용한다. eslint: [`brace-style`](http://eslint.org/docs/rules/brace-style.html)
 
     ```javascript
     // bad
@@ -1546,7 +1546,7 @@
 ## Comments
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#comments)와 동일합니다.
 
-  - [17.1](#17.1) <a name='17.1'></a> 복수행의 코멘트는 `/** ... */` 을 사용한다. 그 안에는 설명과 모든 파라미터, 반환값에 대해 형이나 값을 기술한다.
+  - [17.1](#17.1) <a name='17.1'></a>복수행의 코멘트는 `/** ... */` 을 사용한다. 그 안에는 설명과 모든 파라미터, 반환값에 대해 형이나 값을 기술한다.
 
     ```javascript
     // bad
@@ -1578,7 +1578,7 @@
     }
     ```
 
-  - [17.2](#17.2) <a name='17.2'></a> 단일행 코멘트에는 `//` 을 사용한다. 코멘트를 추가하고 싶은 코드의 상부에 배치한다. 또한, 코멘트의 앞에 공백을 넣는다.
+  - [17.2](#17.2) <a name='17.2'></a>단일행 코멘트에는 `//` 을 사용한다. 코멘트를 추가하고 싶은 코드의 상부에 배치한다. 또한, 코멘트의 앞에 공백을 넣는다.
 
     ```javascript
     // bad
@@ -1616,9 +1616,9 @@
     }
     ```
 
-  - [17.3](#17.3) <a name='17.3'></a> 문제를 지적하고 재고를 촉구하는 경우나 문제의 해결책을 제안하는 경우 등, 코멘트의 앞에  `FIXME` 나 `TODO` 를 붙이는 것으로 다른 개발자가 빠르게 이해할 수 있도록 한다. 이런 것들은 어떤 액션을 따른다는 의미이다.  액션이라는 것은 `FIXME -- 해결이 필요` 또는 `TODO -- 구현이 필요` 를 뜻한다.
+  - [17.3](#17.3) <a name='17.3'></a>문제를 지적하고 재고를 촉구하는 경우나 문제의 해결책을 제안하는 경우 등, 코멘트의 앞에  `FIXME` 나 `TODO` 를 붙이는 것으로 다른 개발자가 빠르게 이해할 수 있도록 한다. 이런 것들은 어떤 액션을 따른다는 의미이다.  액션이라는 것은 `FIXME -- 해결이 필요` 또는 `TODO -- 구현이 필요` 를 뜻한다.
 
-  - [17.4](#17.4) <a name='17.4'></a> 문제의 해결이 필요하다는 주석으로써 `// FIXME:` 를 사용한다.
+  - [17.4](#17.4) <a name='17.4'></a>문제의 해결이 필요하다는 주석으로써 `// FIXME:` 를 사용한다.
 
     ```javascript
     class Calculator extends Abacus {
@@ -1631,7 +1631,7 @@
     }
     ```
 
-  - [17.5](#17.5) <a name='17.5'></a> 구현이 필요하다는 주석으로 `// TODO:` 를 사용한다.
+  - [17.5](#17.5) <a name='17.5'></a>구현이 필요하다는 주석으로 `// TODO:` 를 사용한다.
 
     ```javascript
     class Calculator extends Abacus {
@@ -1649,7 +1649,7 @@
 ## Whitespace
 `18.1`, `18.6`, `18. 11 ~ 13` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#whitespace)와 동일합니다.
  
-  - [18.1](#whitespace--spaces) 공백은 탭을 사용한다. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)
+  - [18.1](#18.1) <a name='18.1'></a>공백은 탭을 사용한다. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)
 
     ```javascript
     // bad
@@ -1669,7 +1669,7 @@
     ```
 
 
-  - [18.2](#18.2) <a name='18.2'></a> 주요 중괄호 ({}) 앞에는 공백을 1개 넣는다. eslint: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html)
+  - [18.2](#18.2) <a name='18.2'></a>주요 중괄호 ({}) 앞에는 공백을 1개 넣는다. eslint: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html)
 
     ```javascript
     // bad
@@ -1695,7 +1695,7 @@
     });
     ```
 
-  - [18.3](#18.3) <a name='18.3'></a> 제어구문 (`if` 문이나 `while` 문 등) 의 소괄호(`()`) 앞에는 공백을 1개 넣는다. 함수선언이나 함수호출시 인수리스트의 앞에는 공백을 넣지 않는다.  eslint: [`keyword-spacing`](http://eslint.org/docs/rules/keyword-spacing.html)
+  - [18.3](#18.3) <a name='18.3'></a>제어구문 (`if` 문이나 `while` 문 등) 의 소괄호(`()`) 앞에는 공백을 1개 넣는다. 함수선언이나 함수호출시 인수리스트의 앞에는 공백을 넣지 않는다.  eslint: [`keyword-spacing`](http://eslint.org/docs/rules/keyword-spacing.html)
 
     ```javascript
     // bad
@@ -1719,7 +1719,7 @@
     }
     ```
 
-  - [18.4](#18.4) <a name='18.4'></a> 연산자 사이에는 공백을 넣는다. eslint: [`space-infix-ops`](http://eslint.org/docs/rules/space-infix-ops.html)
+  - [18.4](#18.4) <a name='18.4'></a>연산자 사이에는 공백을 넣는다. eslint: [`space-infix-ops`](http://eslint.org/docs/rules/space-infix-ops.html)
 
     ```javascript
     // bad
@@ -1729,7 +1729,7 @@
     const x = y + 5;
     ```
 
-  - [18.5](#18.5) <a name='18.5'></a> 파일 끝에는 개행문자를 1개 넣는다. eslint: [`eol-last`](https://github.com/eslint/eslint/blob/master/docs/rules/eol-last.md)
+  - [18.5](#18.5) <a name='18.5'></a>파일 끝에는 개행문자를 1개 넣는다. eslint: [`eol-last`](https://github.com/eslint/eslint/blob/master/docs/rules/eol-last.md)
 
     ```javascript
     // bad
@@ -1753,7 +1753,7 @@
     })(this);↵
     ```
 
-  - [18.6](#whitespace--chains) 메서드 체인이 2개를 초과한 경우, 적절히 줄 바꿈을 하여 사용한다. 메서드 체이닝을 하여 줄바꿈을 할 때에는 마침표(.) 다음에 줄 바꿈을 한다. 줄 바꿈 후에는 가독성을 위하여 자동 들여쓰기를 한다. eslint: [`newline-per-chained-call`](http://eslint.org/docs/rules/newline-per-chained-call) [`no-whitespace-before-property`](http://eslint.org/docs/rules/no-whitespace-before-property)
+  - [18.6](#18.6) <a name='18.6'></a>메서드 체인이 2개를 초과한 경우, 적절히 줄 바꿈을 하여 사용한다. 메서드 체이닝을 하여 줄바꿈을 할 때에는 마침표(.) 다음에 줄 바꿈을 한다. 줄 바꿈 후에는 가독성을 위하여 자동 들여쓰기를 한다. eslint: [`newline-per-chained-call`](http://eslint.org/docs/rules/newline-per-chained-call) [`no-whitespace-before-property`](http://eslint.org/docs/rules/no-whitespace-before-property)
 
     ```javascript
     // bad
@@ -1795,7 +1795,7 @@
     const leds = stage.selectAll(".led").data(data);
     ```
 
-  - [18.7](#18.7) <a name='18.7'></a> 문의 앞과 블록의 뒤에는 빈행을 남겨둔다.
+  - [18.7](#18.7) <a name='18.7'></a>문의 앞과 블록의 뒤에는 빈행을 남겨둔다.
 
     ```javascript
     // bad
@@ -1852,7 +1852,7 @@
     return arr;
     ```
 
-  - [18.8](#18.8) <a name='18.8'></a> 블록에 빈행을 끼워 넣지 않는다. eslint: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html)
+  - [18.8](#18.8) <a name='18.8'></a>블록에 빈행을 끼워 넣지 않는다. eslint: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html)
 
     ```javascript
     // bad
@@ -1884,7 +1884,7 @@
     }
     ```
 
-  - [18.9](#18.9) <a name='18.9'></a> 소괄호(`()`)의 안쪽에 공백을 추가하지 않는다. eslint: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html)
+  - [18.9](#18.9) <a name='18.9'></a>소괄호(`()`)의 안쪽에 공백을 추가하지 않는다. eslint: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html)
 
     ```javascript
     // bad
@@ -1908,7 +1908,7 @@
     }
     ```
 
-  - [18.10](#18.10) <a name='18.10'></a> 대괄호(`[]`)의 안쪽에 공백을 추가하지 않는다. eslint: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html)
+  - [18.10](#18.10) <a name='18.10'></a>대괄호(`[]`)의 안쪽에 공백을 추가하지 않는다. eslint: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html)
 
     ```javascript
     // bad
@@ -1920,7 +1920,7 @@
     console.log(foo[0]);
     ```
 
-  - [18.11](#whitespace--in-braces) 괄호 안에 공백을 삽입하지 않는다. eslint: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html)
+  - [18.11](#18.11) <a name='18.11'></a>괄호 안에 공백을 삽입하지 않는다. eslint: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html)
 
     ```javascript
     // bad
@@ -1942,7 +1942,7 @@
     }
     ```
 
-  - [18.12](#whitespace--max-len) 최대 줄 너비는 `100` 이다. 
+  - [18.12](#18.12) <a name='18.12'></a>최대 줄 너비는 `100` 이다. 
     고해상도 모니터(해상도 1280*1024)사용이 보편화 됨에 따라, 최대 줄 사용 너비는 100자까지 가능하다. eslint: [`max-len`](http://eslint.org/docs/rules/max-len.html)
 
     ```javascript
@@ -1962,7 +1962,7 @@
     ```
 
  
-  - [18.13](#whitespace--operator-line) 연산식의 경우에는 연산자 후에 줄 바꿈을 한다. 상위 레벨의 깊이에 맞게 들여쓰기를 한다
+  - [18.13](#18.13) <a name='18.13'></a>연산식의 경우에는 연산자 후에 줄 바꿈을 한다. 상위 레벨의 깊이에 맞게 들여쓰기를 한다
 
     ```javascript
     // bad
@@ -1979,7 +1979,7 @@
 ## Commas
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#commas)와 동일합니다.
 
-  - [19.1](#19.1) <a name='19.1'></a> 콤마는 뒤에 표기한다. eslint: [`comma-style`](http://eslint.org/docs/rules/comma-style.html)
+  - [19.1](#19.1) <a name='19.1'></a>콤마는 뒤에 표기한다. eslint: [`comma-style`](http://eslint.org/docs/rules/comma-style.html)
 
     ```javascript
     // bad
@@ -2013,7 +2013,7 @@
     };
     ```
 
-  - [19.2](#19.2) <a name='19.2'></a> 끝에 콤마를 넣는다. eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html)
+  - [19.2](#19.2) <a name='19.2'></a>끝에 콤마를 넣는다. eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html)
 
     ```javascript
     // bad - git diff without trailing comma
@@ -2059,7 +2059,7 @@
 ## Semicolons
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#semicolons)와 동일합니다.
 
-  - [20.1](#20.1) <a name='20.1'></a> `;`은 문장의 끝에 표기한다. eslint: [`semi`](http://eslint.org/docs/rules/semi.html)
+  - [20.1](#20.1) <a name='20.1'></a>`;`은 문장의 끝에 표기한다. eslint: [`semi`](http://eslint.org/docs/rules/semi.html)
 
     ```javascript
     // bad
@@ -2086,9 +2086,9 @@
 ## Type Casting & Coercion
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#type-casting--coercion)와 동일합니다.
 
-  - [21.1](#21.1) <a name='21.1'></a> 문의 선두에서 형의 강제를 수행한다.
+  - [21.1](#21.1) <a name='21.1'></a>문의 선두에서 형의 강제를 수행한다.
 
-  - [21.2](#21.2) <a name='21.2'></a> 문자열의 경우:
+  - [21.2](#21.2) <a name='21.2'></a>문자열의 경우:
 
     ```javascript
     //  => this.reviewScore = 9;
@@ -2100,7 +2100,7 @@
     const totalScore = String(this.reviewScore);
     ```
 
-  - [21.3](#21.3) <a name='21.3'></a> 수치의 경우: `Number` 로 형변환하는 경우는 `parseInt` 를 이용하고, 항상 형변환을 위한 기수를 인수로 넘겨 준다. eslint: [`radix`](http://eslint.org/docs/rules/radix)
+  - [21.3](#21.3) <a name='21.3'></a>수치의 경우: `Number` 로 형변환하는 경우는 `parseInt` 를 이용하고, 항상 형변환을 위한 기수를 인수로 넘겨 준다. eslint: [`radix`](http://eslint.org/docs/rules/radix)
 
     ```javascript
     const inputValue = "4";
@@ -2124,7 +2124,7 @@
     const val = parseInt(inputValue, 10);
     ```
 
-  - [21.4](#21.4) <a name='21.4'></a> `parseInt`를 사용하는 경우 [성능적인 이유](http://jsperf.com/coercion-vs-casting/3)로 문제가 되면, Bitshift를 사용한다. 이때에는 꼭! Bitshift를 사용한 이유를 주석으로 남긴다.
+  - [21.4](#21.4) <a name='21.4'></a>`parseInt`를 사용하는 경우 [성능적인 이유](http://jsperf.com/coercion-vs-casting/3)로 문제가 되면, Bitshift를 사용한다. 이때에는 꼭! Bitshift를 사용한 이유를 주석으로 남긴다.
 
     ```javascript
     // good
@@ -2135,7 +2135,7 @@
     const val = inputValue >> 0;
     ```
 
-  - [21.5](#21.5) <a name='21.5'></a> **주의:** Bitshift를 사용하는 경우의 주의사항. 수치는 [64비트 값](http://es5.github.io/#x4.3.19)으로 표현되어 있으나 bitshift 연산한 경우는 항상 32비트 integer 로 넘겨진다.
+  - [21.5](#21.5) <a name='21.5'></a>**주의:** Bitshift를 사용하는 경우의 주의사항. 수치는 [64비트 값](http://es5.github.io/#x4.3.19)으로 표현되어 있으나 bitshift 연산한 경우는 항상 32비트 integer 로 넘겨진다.
 
     ```javascript
     2147483647 >> 0 //=> 2147483647
@@ -2143,7 +2143,7 @@
     2147483649 >> 0 //=> -2147483647
     ```
 
-  - [21.6](#21.6) <a name='21.6'></a> Boolean의 경우:
+  - [21.6](#21.6) <a name='21.6'></a>Boolean의 경우:
 
     ```javascript
     const age = 0;
@@ -2163,7 +2163,7 @@
 ## Naming Conventions
 > `22.4 ~ 5`, `22.10 ~ 15` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#naming-conventions)와 동일합니다.
 
-  - [22.1](#22.1) <a name='22.1'></a> 1문자의 이름은 사용하지 않는다. eslint: [`id-length`](http://eslint.org/docs/rules/id-length)
+  - [22.1](#22.1) <a name='22.1'></a>1문자의 이름은 사용하지 않는다. eslint: [`id-length`](http://eslint.org/docs/rules/id-length)
 
     ```javascript
     // bad
@@ -2177,7 +2177,7 @@
     }
     ```
 
-  - [22.2](#22.2) <a name='22.2'></a> 오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html) 
+  - [22.2](#22.2) <a name='22.2'></a>오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html) 
 
     ```javascript
     // bad
@@ -2190,7 +2190,7 @@
     function thisIsMyFunction() {}
     ```
 
-  - [22.3](#22.3) <a name='22.3'></a> 클래스나 constructor에는 PascalCase 를 사용한다. eslint: [`new-cap`](http://eslint.org/docs/rules/new-cap.html) 
+  - [22.3](#22.3) <a name='22.3'></a>클래스나 constructor에는 PascalCase 를 사용한다. eslint: [`new-cap`](http://eslint.org/docs/rules/new-cap.html) 
 
     ```javascript
     // bad
@@ -2214,7 +2214,7 @@
     });
     ```
 
-  - [22.4](#naming--leading-underscore) 함수명이나 속성명의 앞에 `_`가 있는 경우는 private을 의미한다.  외부에서 접근할 수 있는 경우, 사용하면 안되는 메서드명 또는 속성명은 `_`을 사용한다. 외부에서 접근할 수 없다면, 메서드명 이나 속성명에 `_`을 사용하지 않는다. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html)
+  - [22.4](#22.4) <a name='22.4'></a>함수명이나 속성명의 앞에 `_`가 있는 경우는 private을 의미한다.  외부에서 접근할 수 있는 경우, 사용하면 안되는 메서드명 또는 속성명은 `_`을 사용한다. 외부에서 접근할 수 없다면, 메서드명 이나 속성명에 `_`을 사용하지 않는다. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html)
 
     ```javascript
     // bad - 외부에서 접근할 수 있는 경우, 사용하면 안되는 메서드명 또는 속성명은 `_`을 사용한다.
@@ -2260,7 +2260,7 @@
     })();
     ```
 
-  - [22.5](#naming--self-this) 가능한 this를 캐싱하지 않는다. arrow functions 또는 [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)를 사용한다. jQuery를 사용하는 경우라면, [$.proxy](http://api.jquery.com/jQuery.proxy)를 사용한다.
+  - [22.5](#22.5) <a name='22.5'></a>가능한 this를 캐싱하지 않는다. arrow functions 또는 [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)를 사용한다. jQuery를 사용하는 경우라면, [$.proxy](http://api.jquery.com/jQuery.proxy)를 사용한다.
   만약, this의 참조를 저장하는 경우라면 self 를 사용한다.
 
     ```javascript
@@ -2288,7 +2288,7 @@
     }
     ```
 
-  - [22.6](#22.6) <a name='22.6'></a> 파일을 1개의 `클래스`로 export 하는 경우, 파일명은 클래스명과 완전히 일치시킨다.
+  - [22.6](#22.6) <a name='22.6'></a>파일을 1개의 `클래스`로 export 하는 경우, 파일명은 클래스명과 완전히 일치시킨다.
 
     ```javascript
     // file contents
@@ -2308,7 +2308,7 @@
     import CheckBox from "./CheckBox";
     ```
 
-  - [22.7](#22.7) <a name='22.7'></a> Default export가 `함수`일 경우, camelCase를 이용한다. 파일명은 함수명과 동일해야 한다.
+  - [22.7](#22.7) <a name='22.7'></a>Default export가 `함수`일 경우, camelCase를 이용한다. 파일명은 함수명과 동일해야 한다.
 
     ```javascript
     function makeStyleGuide() {
@@ -2317,7 +2317,7 @@
     export default makeStyleGuide;
     ```
 
-  - [22.8](#22.8) <a name='22.8'></a> `Singleton / function library / 빈 오브젝트`를 export 하는 경우에는 PascalCase를 사용한다.
+  - [22.8](#22.8) <a name='22.8'></a>`Singleton / function library / 빈 오브젝트`를 export 하는 경우에는 PascalCase를 사용한다.
 
     ```javascript
     const AirbnbStyleGuide = {
@@ -2328,7 +2328,7 @@
     export default AirbnbStyleGuide;
     ```
 
-  - [22.9](#naming--Acronyms-and-Initialisms) 약어 및 이니셜은 항상 모두 대문자이거나 모두 소문자이어야 한다.
+  - [22.9](#22.9) <a name='22.9'></a>약어 및 이니셜은 항상 모두 대문자이거나 모두 소문자이어야 한다.
 
     ```javascript
     // bad
@@ -2356,9 +2356,9 @@
     ];
     ```
 
-  - [22.10](#naming-eng) 소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않는다.
+  - [22.10](#22.10) <a name='22.10'></a>소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않는다.
 
-  - [22.11](#naming-no-korea) 한글 발음을 그대로 사용하지 않는다.
+  - [22.11](#22.11) <a name='22.11'></a>한글 발음을 그대로 사용하지 않는다.
 
     ```javascript
     // ''무형자산''이라는 의미의 변수를 선언한 예.
@@ -2369,7 +2369,7 @@
     const intangibleAssets;
     ```
 
-  - [22.12](#naming-no-special) 클래스, 메서드 등의 이름에는 특수 문자를 사용하지 않는다. jQuery 변수의 경우 `$`을 사용하는 것은 예외사항으로 한다.
+  - [22.12](#22.12) <a name='22.12'></a>클래스, 메서드 등의 이름에는 특수 문자를 사용하지 않는다. jQuery 변수의 경우 `$`을 사용하는 것은 예외사항으로 한다.
 
     ```js
     // bad
@@ -2378,9 +2378,9 @@
     }
     ```
  
-  - [22.13](#naming-class-name) 클래스명과 변수명은 `명사 사용`을 준수한다.
-  - [22.14](#naming-method-name) 메서드명은 `동사 사용`을 준수한다.
-  - [22.15](#naming-const-name) 상수명은 대문자를 사용하고, 단어와 단어사이는 _로 연결한다.
+  - [22.13](#22.13) <a name='22.13'></a>클래스명과 변수명은 `명사 사용`을 준수한다.
+  - [22.14](#22.14) <a name='22.14'></a>메서드명은 `동사 사용`을 준수한다.
+  - [22.15](#22.15) <a name='22.15'></a>상수명은 대문자를 사용하고, 단어와 단어사이는 _로 연결한다.
 
     ```js
     // bad
@@ -2398,9 +2398,9 @@
 ## Accessors
 > [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#accessors)와 동일합니다.
 
-  - [23.1](#23.1) <a name='23.1'></a> 프로퍼티를 위한 접근자 (Accessor) 함수는 필수가 아니다.
+  - [23.1](#23.1) <a name='23.1'></a>프로퍼티를 위한 접근자 (Accessor) 함수는 필수가 아니다.
 
-  - [23.2](#23.2) <a name='23.2'></a> 접근자 함수가 필요한 경우, `getVal()` 이나 `setVal('hello')` 로 한다.
+  - [23.2](#23.2) <a name='23.2'></a>접근자 함수가 필요한 경우, `getVal()` 이나 `setVal('hello')` 로 한다.
 
     ```javascript
     // bad
@@ -2416,7 +2416,7 @@
     dragon.setAge(25);
     ```
 
-  - [23.3](#23.3) <a name='23.3'></a> 프로퍼티가 `boolean` 인 경우, `isVal()` 이나 `hasVal()` 로 한다.
+  - [23.3](#23.3) <a name='23.3'></a>프로퍼티가 `boolean` 인 경우, `isVal()` 이나 `hasVal()` 로 한다.
 
     ```javascript
     // bad
@@ -2459,7 +2459,7 @@
 > `25.3 ~ 4` 항목을 제외하고는  [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery)와 동일합니다.
 
 
-  - [25.1](#25.1) <a name='25.1'></a> jQuery오브젝트의 변수는 선두에 `$` 를 부여한다.
+  - [25.1](#25.1) <a name='25.1'></a>jQuery오브젝트의 변수는 선두에 `$` 를 부여한다.
 
     ```javascript
     // bad
@@ -2472,7 +2472,7 @@
     const $sidebarBtn = $(".sidebar-btn");
     ```
 
-  - [25.2](#25.2) <a name='25.2'></a> jQuery의 검색결과를 캐시하여 사용한다.
+  - [25.2](#25.2) <a name='25.2'></a>jQuery의 검색결과를 캐시하여 사용한다.
 
     ```javascript
     // bad
@@ -2499,9 +2499,9 @@
     }
     ```
 
-  - [25.3](#25.3) <a name='25.3'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--queries)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
+  - [25.3](#25.3) <a name='25.3'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--queries)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
 
-  - [25.4](#25.4) <a name='25.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--find)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
+  - [25.4](#25.4) <a name='25.4'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#jquery--find)와 다르게 `DOM 검색에 대해서`는 별도로 가이드 하지 않는다.
 
 **[⬆ back to top](#table-of-contents)**
 
