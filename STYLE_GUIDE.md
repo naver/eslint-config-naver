@@ -312,11 +312,11 @@
     const itemsCopy = [...items];
     ```
 
-  - [4.4](#4.4) <a name='4.4'></a> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--from)와 다르게 `array-like 오브젝트를 배열로 변환하는 경우`에 대해서는 별도로 가이드 하지 않는다.
+  - [4.4](#4.4) <a name='4.4'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--from)와 다르게 `array-like 오브젝트를 배열로 변환하는 경우`에 대해서는 별도로 가이드 하지 않는다.
 
-  - [4.5](#4.5) [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return)와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
+  - [4.5](#4.5) <a name='4.5'></a>[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#arrays--callback-return)와 다르게 `배열의 메서드 콜백`에 대해서는 별도로 가이드 하지 않는다. eslint: [`array-callback-return`](http://eslint.org/docs/rules/array-callback-return.html)
 
-  - [4.6](#4.6) 배열이 멀티 라인인 경우, 배열의 시작(before)과 끝(after)은 개행한다.
+  - [4.6](#4.6) <a name='4.6'></a>배열이 멀티 라인인 경우, 배열의 시작(before)과 끝(after)은 개행한다.
 
     ```javascript
     // bad
@@ -1079,7 +1079,7 @@
     } from "path";
     ```
 
-  - [10.9](#modules--no-webpack-loader-syntax) 웹팩 로더 문법 사용에 대해 강제하지 않는다. eslint: [`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)
+  - [10.9](#10.9) <a name='10.9'></a>웹팩 로더 문법 사용에 대해 강제하지 않는다. eslint: [`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)
 
     ```javascript
     // good
