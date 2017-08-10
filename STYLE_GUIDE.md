@@ -2177,15 +2177,17 @@
     }
     ```
 
-  - [22.2](#22.2) <a name='22.2'></a>오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html) 
+  - [22.2](#22.2) <a name='22.2'></a>네임스페이스, 오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html) 
 
     ```javascript
     // bad
+    naver.FOO.bar = function() {};
     const OBJEcttsssss = {};
     const this_is_my_object = {};
     function c() {}
 
     // good
+    naver.foo.bar = function() {};
     const thisIsMyObject = {};
     function thisIsMyFunction() {}
     ```
