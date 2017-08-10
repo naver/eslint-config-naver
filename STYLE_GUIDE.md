@@ -2161,7 +2161,7 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## Naming Conventions
-> `22.4 ~ 5`, `22.10 ~ 15` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#naming-conventions)와 동일합니다.
+> `22.2`, `22.4 ~ 5`, `22.10 ~ 15` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#naming-conventions)와 동일합니다.
 
   - [22.1](#22.1) <a name='22.1'></a>1문자의 이름은 사용하지 않는다. eslint: [`id-length`](http://eslint.org/docs/rules/id-length)
 
@@ -2176,8 +2176,8 @@
       // ..stuff..
     }
     ```
-
-  - [22.2](#22.2) <a name='22.2'></a>네임스페이스, 오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html) 
+  - [22.2](#22.2) <a name='22.2'></a>네임스페이스, 오브젝트, 함수 그리고 인스턴스에는 camelCase를 사용한다. eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase.html)  
+ 
 
     ```javascript
     // bad
