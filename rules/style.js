@@ -4,6 +4,9 @@ module.exports = {
 	// [NAVER] 7.8. 괄호 안에 공백을 삽입하지 않는다.(disallowSpacesInsideArrayBrackets, disallowSpacesInsideObjectBrackets, disallowSpacesInsideParentheses)
 	"array-bracket-spacing": ["error", "never"],
 
+	"array-element-newline": ["error", "never"],
+	"array-bracket-newline": ["error", {"multiline": true}],
+
 	// // enforce one true brace style
 	// [NAVER] 2.1 줄의 끝에서 중괄호 시작
 	"brace-style": "error",
@@ -100,7 +103,7 @@ module.exports = {
 
 	// allow/disallow an empty newline after var statement
 	// [NAVER] 5.2. 함수 선언 간, 변수 선언 후 빈 줄 사용 준수
-	"newline-after-var": ["error", "always"],
+	// "newline-after-var": ["error", "always"],
 	// "newline-after-var": "off",
 
 	// enforces new line after each method call in the chain to make it
@@ -185,6 +188,14 @@ module.exports = {
 	// enforce padding within blocks
 	// [NAVER] 5.1 함수 선언 후 빈줄 사용 지양
 	"padded-blocks": ["error", "never"],
+
+	"padding-line-between-statements": ["error",
+		{ "blankLine": "any", "prev": "*", "next": "return" },
+		{ "blankLine": "always", "prev": ["const", "let"], "next": "*" },
+		{ "blankLine": "any", "prev": ["const", "let"], "next": ["const", "let"]},
+		{ "blankLine": "always", "prev": "directive", "next": "*" },
+		{ "blankLine": "never", "prev": "directive", "next": "directive" }
+	],
 
 	// require quotes around object literal property names
 	// http://eslint.org/docs/rules/quote-props.html
