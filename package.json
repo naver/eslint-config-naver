@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-naver",
-  "version": "2.0.0-snapshot",
+  "version": "2.0.1",
   "description": "Naver JavaScript Coding Conventions rules for eslint",
   "main": "index.js",
   "dependencies": {
