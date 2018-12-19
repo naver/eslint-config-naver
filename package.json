@@ -4,8 +4,8 @@
   "description": "Naver JavaScript Coding Conventions rules for eslint",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^4.7.1",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^5.10.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "repository": {
     "type": "git",
