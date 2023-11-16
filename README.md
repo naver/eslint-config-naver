@@ -1,3 +1,12 @@
+-----------------------------------
+
+아쉽게도 현재 해당 저장소를 운영하고 있지 않습니다.
+여러 곳에서 아직 사용하고 있긴 하지만 부분적으로 수정해서 사용하고 있는 상황이고 예전 버전이라 운영하지 않기로 결정했습니다.
+가능하면 [원본 저장소](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)를 참고해주세요.
+
+감사합니다.
+
+-----------------------------------
 # Naver Javascript Coding Conventions
 - eslint-config-naver는 네이버 자바스크립트 코딩컨벤션을 지원하는 [eslint](http://eslint.org/) 룰 셋입니다.
 - eslint-config-naver는 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) 룰셋 기준으로 작성되었습니다.
