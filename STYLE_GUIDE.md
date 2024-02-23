@@ -82,7 +82,7 @@
     const b = 2;
     ```
 
-  - [2.2](#2.2) <a name='2.2'></a> 참조를 재할당 해야한다면 `var` 대신 `let` 을 사용한다.  eslint: [`no-var`](http://eslint.org/docs/rules/no-var.html) jscs: [`disallowVar`](http://jscs.info/rule/disallowVar)
+  - [2.2](#2.2) <a name='2.2'></a> 참조를 재할당 해야한다면 `var` 대신 `let` 을 사용한다.  eslint: [`no-var`](http://eslint.org/docs/rules/no-var.html)
 
     ```javascript
     // bad
